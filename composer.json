@@ -1,0 +1,29 @@
+{
+	"name": "jaswrks/chalk",
+	"type": "library",
+	"description": "A tool to style terminal output.",
+	"keywords": ["chalk", "style", "color"],
+	"homepage": "http://github.com/jaswrks/chalk",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Martin Pettersson",
+			"email": "martin_pettersson@outlook.com",
+			"homepage": "http://martindotcom.se",
+			"role": "Developer"
+		},{
+			"name": "Jason Caldwell",
+			"email": "jaswrks@o5p.me",
+			"homepage": "https://jaswrks.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Chalk\\": "src"
+		}
+	}
+}
